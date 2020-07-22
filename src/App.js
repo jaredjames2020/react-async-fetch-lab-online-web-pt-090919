@@ -1,11 +1,18 @@
 // create your App component here
+<<<<<<< HEAD
 import React, { Component } from 'react'
 
+=======
+>>>>>>> 7d72053ec808e734c7db988f030875646fd32492
 class App extends React.Component {
  
   constructor() {
     super()
+<<<<<<< HEAD
     this.state = {
+=======
+    this.state ={
+>>>>>>> 7d72053ec808e734c7db988f030875646fd32492
       peopleInSpace: []
     }
   }
@@ -20,12 +27,19 @@ class App extends React.Component {
       })
   }
   
+<<<<<<< HEAD
 render() {
     return (
       <div>
         {this.state.peopleInSpace.map(person => person.name)}
       </div>
     )
+=======
+  render(){
+    return({
+      <div>{this.state.peopleInSpace}</div>
+    })
+>>>>>>> 7d72053ec808e734c7db988f030875646fd32492
   }
  
 }
